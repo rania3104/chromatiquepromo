@@ -114,7 +114,7 @@ const Index = () => {
                 <div className="w-4 h-4 rounded-full bg-chromatique-spring"></div>
                 <div className="w-4 h-4 rounded-full bg-chromatique-rose"></div>
               </div>
-              <p className="text-sm font-medium">Your personal summer palette enhances your natural beauty</p>
+              <p className="text-sm font-medium">Your personal palette enhances your natural beauty</p>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-medium mb-2">Color Analysis</h3>
               <p className="text-chromatique-taupe">
-                Upload your photo and our AI technology analyzes your skin tone, hair, and eye color to determine your seasonal color palette.
+                Take the quiz and enter your skin tone, hair, and eye color to determine your seasonal color palette.
               </p>
             </div>
             
@@ -167,7 +167,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-medium mb-2">Quick Results</h3>
               <p className="text-chromatique-taupe">
-                Get your color analysis in minutes, not days, with our advanced AI technology.
+                Get your color analysis in minutes, not days.
               </p>
             </div>
             
