@@ -78,143 +78,79 @@ const Team = () => {
           </div>
         </section>
         
-        {/* Leadership Team */}
         <section className="py-12 px-4 md:px-6 lg:container">
-          <h2 className="text-3xl font-serif text-center text-chromatique-deep mb-12">Leadership</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h2 className="text-3xl font-serif text-center text-chromatique-deep mb-12">Leaders and Tech Team</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center place-items-center">
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Emma Parker" 
+                  src="/maryam.png" 
+                  alt="Maryam Tahir" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium mb-1">Emma Parker</h3>
-              <p className="text-chromatique-rose font-medium mb-3">CEO & Founder</p>
+              <h3 className="text-xl font-medium mb-1">Maryam Tahir</h3>
+              <p className="text-chromatique-rose font-medium mb-3">Project Lead & Full Stack Developer</p>
               <p className="text-chromatique-taupe">
-                Former fashion industry executive with 15+ years of experience and a passion for color theory.
+                Led frontend development, supported backend, managed project direction, coordinated team meetings, and oversaw design and content decisions.
               </p>
             </div>
             
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Michael Chen" 
+                  src="/rania.jpeg" 
+                  alt="Rania Aziz Farooqi" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium mb-1">Michael Chen</h3>
-              <p className="text-chromatique-rose font-medium mb-3">CTO</p>
+              <h3 className="text-xl font-medium mb-1">Rania Aziz Farooqi</h3>
+              <p className="text-chromatique-rose font-medium mb-3">Technical Lead & Operations Coordinator</p>
               <p className="text-chromatique-taupe">
-                Tech innovator with expertise in AI and machine learning, leading our color analysis technology.
-              </p>
-            </div>
-            
-            <div className="flex flex-col items-center text-center">
-              <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                  alt="Sophia Rodriguez" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-medium mb-1">Sophia Rodriguez</h3>
-              <p className="text-chromatique-rose font-medium mb-3">Chief Color Analyst</p>
-              <p className="text-chromatique-taupe">
-                Certified color consultant with a background in art and design, overseeing our seasonal color methodologies.
+                Led backend development, supported frontend, managed digital assets, organized documentation, and co-led project planning and team coordination.
               </p>
             </div>
           </div>
         </section>
-        
         {/* Team Members */}
         <section className="py-12 px-4 md:px-6 lg:container bg-chromatique-cream/30">
-          <h2 className="text-3xl font-serif text-center text-chromatique-deep mb-12">Color Experts</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <h2 className="text-3xl font-serif text-center text-chromatique-deep mb-12"> Designers and Managers</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
             {[
               {
-                name: "David Wilson",
-                role: "Senior Color Analyst",
-                image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                specialty: "Winter palettes specialist"
+          name: "Ayesha Adnan",
+          role: "Brand & Media Designer",
+          image: "/ayesha 1.png",
+          specialty: "Created the app and Instagram logos, managed social media content, designed a high-fidelity prototype, and organized documentation and project assets."
               },
               {
-                name: "Anna Kim",
-                role: "Color Analyst",
-                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                specialty: "Spring palettes specialist"
+          name: "Ayesha Afzal",
+          role: "Visual Designer & Content Curator",
+          image: "/ayesha 2.png",
+          specialty: "Designed the project poster and prototype, and contributed over 200+ curated items for user recommendations."
               },
               {
-                name: "James Taylor",
-                role: "Color Analyst",
-                image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                specialty: "Summer palettes specialist"
+          name: "Jadon Aguhob",
+          role: "UX Designer & Content Contributor",
+          image: "/jadon.jpeg",
+          specialty: "Created the low-fidelity prototype and helped build a database of 100+ user-relevant items."
               },
-              {
-                name: "Olivia Martinez",
-                role: "Color Analyst",
-                image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                specialty: "Autumn palettes specialist"
-              }
             ].map((member, index) => (
-              <div key={index} className="flex flex-col items-center text-center">
-                <div className="w-36 h-36 rounded-full overflow-hidden mb-4">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-medium mb-1">{member.name}</h3>
-                <p className="text-chromatique-rose font-medium mb-2">{member.role}</p>
-                <p className="text-chromatique-taupe text-sm">{member.specialty}</p>
+              <div key={index} className="flex flex-col items-center text-center justify-center">
+          <div className="w-36 h-36 rounded-full overflow-hidden mb-4 flex items-center justify-center">
+            <img 
+              src={member.image} 
+              alt={member.name} 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <h3 className="text-lg font-medium mb-1">{member.name}</h3>
+          <p className="text-chromatique-rose font-medium mb-2">{member.role}</p>
+          <p className="text-chromatique-taupe text-sm">{member.specialty}</p>
               </div>
             ))}
           </div>
         </section>
-        
-        {/* Tech Team */}
-        <section className="py-12 px-4 md:px-6 lg:container">
-          <h2 className="text-3xl font-serif text-center text-chromatique-deep mb-12">Tech Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Alex Johnson",
-                role: "Lead Developer",
-                image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                bio: "Full-stack developer specializing in AI integration and computer vision"
-              },
-              {
-                name: "Nina Patel",
-                role: "UX/UI Designer",
-                image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                bio: "Creating beautiful, intuitive interfaces with a focus on accessibility"
-              },
-              {
-                name: "Thomas Wright",
-                role: "Data Scientist",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-                bio: "Analyzing color patterns and refining our recommendation algorithms"
-              }
-            ].map((member, index) => (
-              <div key={index} className="flex flex-col items-center text-center">
-                <div className="w-36 h-36 rounded-full overflow-hidden mb-4">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-medium mb-1">{member.name}</h3>
-                <p className="text-chromatique-rose font-medium mb-2">{member.role}</p>
-                <p className="text-chromatique-taupe text-sm">{member.bio}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-        
         {/* Join Our Team CTA */}
         <section className="py-16 px-4 md:px-6 lg:container bg-chromatique-deep text-white">
           <div className="max-w-3xl mx-auto text-center">

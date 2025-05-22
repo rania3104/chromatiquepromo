@@ -114,7 +114,7 @@ const Index = () => {
                 <div className="w-4 h-4 rounded-full bg-chromatique-spring"></div>
                 <div className="w-4 h-4 rounded-full bg-chromatique-rose"></div>
               </div>
-              <p className="text-sm font-medium">Your personal palette enhances your natural beauty</p>
+              <p className="text-sm font-medium">Your personal summer palette enhances your natural beauty</p>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-medium mb-2">Color Analysis</h3>
               <p className="text-chromatique-taupe">
-                Take the quiz and enter your skin tone, hair, and eye color to determine your seasonal color palette.
+                Our app analyzes your skin tone, hair, and eye color to determine your seasonal color palette.
               </p>
             </div>
             
@@ -167,7 +167,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-medium mb-2">Quick Results</h3>
               <p className="text-chromatique-taupe">
-                Get your color analysis in minutes, not days.
+                Get your color analysis in minutes, not days. Save time and make your style decisions quickly.
               </p>
             </div>
             
@@ -185,9 +185,9 @@ const Index = () => {
               <div className="mb-4 p-3 rounded-full bg-chromatique-rose/10 w-fit">
                 <Palette className="h-6 w-6 text-chromatique-rose" />
               </div>
-              <h3 className="text-xl font-medium mb-2">Color Education</h3>
+              <h3 className="text-xl font-medium mb-2">Wardrobe Creator</h3>
               <p className="text-chromatique-taupe">
-                Learn about color theory and why certain colors work best for your unique features.
+                 Create a digital wardrobe with your favorite items and see how they fit into your color palette.
               </p>
             </div>
           </div>
@@ -256,12 +256,12 @@ const Index = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-serif text-chromatique-deep">Our Story</h3>
               <p className="text-chromatique-taupe">
-                Chromatique was founded in 2022 by a team of fashion experts and data scientists who recognized that
-                finding your perfect colors shouldn't be complicated or expensive. We combined cutting-edge AI technology
+                Chromatique was founded in 2025 by a team of Creative Computing Students and data scientists who recognized that
+                finding your perfect colors shouldn't be complicated or expensive. We combined technology
                 with classic color theory to create a solution that's accessible to everyone.
               </p>
               <p className="text-chromatique-taupe">
-                Our team includes certified color analysts, fashion industry veterans, and tech innovators all working
+                Our team includes developers, desginers, tech innovators amd fashion enthusiasts, all working
                 together to help you look and feel your best by wearing colors that complement your natural features.
               </p>
               <h3 className="text-2xl font-serif text-chromatique-deep pt-4">Our Philosophy</h3>
@@ -273,28 +273,28 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-xl overflow-hidden">
+              <div className="rounded-xl overflow-hidden h-40 md:h-48">
                 <img 
-                  src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                  src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   alt="Chromatique team member analyzing colors" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="rounded-xl overflow-hidden">
+              <div className="rounded-xl overflow-hidden h-40 md:h-48">
                 <img 
                   src="https://images.unsplash.com/photo-1573164574230-db1d5e960238?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                   alt="Color analysis in progress" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="rounded-xl overflow-hidden">
+              <div className="rounded-xl overflow-hidden h-40 md:h-48">
                 <img 
                   src="https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                   alt="Color fabric swatches" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="rounded-xl overflow-hidden">
+              <div className="rounded-xl overflow-hidden h-40 md:h-48">
                 <img 
                   src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                   alt="Fashion designer working with colors" 
@@ -326,7 +326,7 @@ const Index = () => {
                 Our support team is ready to help with any questions you have.
               </p>
               <a 
-                href="mailto:support@chromatique.com" 
+                href="mailto:chromatique2025@gmail.com" 
                 className="text-chromatique-rose hover:underline"
               >
                 support@chromatique.com
@@ -348,30 +348,46 @@ const Index = () => {
             
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow text-center">
               <div className="mx-auto w-12 h-12 rounded-full bg-chromatique-rose/10 flex items-center justify-center mb-4">
-                <Mail className="h-6 w-6 text-chromatique-rose" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-chromatique-rose"
+                  fill="none"
+                  viewBox="0 0 50 50"
+                >
+                  <path
+                    d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
+                    fill="currentColor"
+                  />
+                </svg>
               </div>
-              <h3 className="text-xl font-medium mb-2">Business Inquiries</h3>
+              <h3 className="text-xl font-medium mb-2">Social Media</h3>
               <p className="text-chromatique-taupe mb-4">
-                For partnerships, press, or business opportunities.
+                For partnerships, media reach, or business opportunities.
               </p>
               <a 
-                href="mailto:business@chromatique.com" 
+                href="https://www.instagram.com/chromatique._/" 
                 className="text-chromatique-rose hover:underline"
               >
-                business@chromatique.com
+                @chromatique._
               </a>
             </div>
           </div>
           
-          <div className="mt-16 bg-white p-8 rounded-xl shadow-sm">
+          <div className="mt-16 bg-white p-8 rounded-xl shadow-lg border border-chromatique-deep/20">
             <h3 className="text-2xl font-serif text-chromatique-deep mb-6 text-center">Send Us a Message</h3>
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form 
+              action="https://formspree.io/f/xovdbpng" 
+              method="POST" 
+              className="grid grid-cols-1 md:grid-cols-2 gap-6"
+            >
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-chromatique-taupe mb-1">Name</label>
                 <input 
                   type="text" 
                   id="name" 
-                  className="w-full px-4 py-2 border border-chromatique-cream rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
+                  name="name"
+                  required
+                  className="w-full px-4 py-2 border border-chromatique-deep/30 rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
                   placeholder="Your name"
                 />
               </div>
@@ -380,7 +396,9 @@ const Index = () => {
                 <input 
                   type="email" 
                   id="email" 
-                  className="w-full px-4 py-2 border border-chromatique-cream rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
+                  name="email"
+                  required
+                  className="w-full px-4 py-2 border border-chromatique-deep/30 rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
                   placeholder="Your email"
                 />
               </div>
@@ -389,7 +407,8 @@ const Index = () => {
                 <input 
                   type="text" 
                   id="subject" 
-                  className="w-full px-4 py-2 border border-chromatique-cream rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
+                  name="subject"
+                  className="w-full px-4 py-2 border border-chromatique-deep/30 rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
                   placeholder="Subject"
                 />
               </div>
@@ -397,13 +416,15 @@ const Index = () => {
                 <label htmlFor="message" className="block text-sm font-medium text-chromatique-taupe mb-1">Message</label>
                 <textarea 
                   id="message" 
+                  name="message"
                   rows={5}
-                  className="w-full px-4 py-2 border border-chromatique-cream rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
+                  required
+                  className="w-full px-4 py-2 border border-chromatique-deep/30 rounded-md focus:outline-none focus:ring-2 focus:ring-chromatique-rose"
                   placeholder="Your message"
                 ></textarea>
               </div>
               <div className="md:col-span-2 text-center">
-                <Button className="bg-chromatique-rose hover:bg-chromatique-deep px-8">
+                <Button type="submit" className="bg-chromatique-deep hover:bg-chromatique-rose px-8 text-white">
                   Send Message
                 </Button>
               </div>
@@ -430,21 +451,21 @@ const Index = () => {
                 <div className="mt-2">
                   <span className="text-3xl font-bold">Free</span>
                 </div>
-                <p className="text-sm text-muted-foreground mt-2">Get started with basic color analysis</p>
+                <p className="text-sm text-muted-foreground mt-2">Get your color palette and basic recommendations</p>
               </div>
               
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Basic color analysis</span>
+                  <span className="text-sm">Color analysis quiz</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Seasonal color identification</span>
+                  <span className="text-sm">Seasonal color palette</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Basic recommendations</span>
+                  <span className="text-sm">Basic clothing recommendations</span>
                 </li>
               </ul>
               <Link to="https://chromatique-i13s.onrender.com/">
@@ -464,25 +485,33 @@ const Index = () => {
                   <span className="text-3xl font-bold">$9.99</span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
-                <p className="text-sm text-muted-foreground mt-2">Enhanced color analysis and features</p>
+                <p className="text-sm text-muted-foreground mt-2">Complete style recommendations tailored to you</p>
               </div>
               
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Advanced color analysis</span>
+                  <span className="text-sm">AColor analysis quiz</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Personalized shopping recommendations</span>
+                  <span className="text-sm">Seasonal color palette</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Digital wardrobe planner</span>
+                  <span className="text-sm">Basic clothing recommendations</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Outfit creator tool</span>
+                  <span className="text-sm">Makeup recommendations</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
+                  <span className="text-sm">Hair color suggestions</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
+                  <span className="text-sm">Jewelry recommendations</span>
                 </li>
               </ul>
               <Link to="https://chromatique-i13s.onrender.com/">
@@ -497,28 +526,40 @@ const Index = () => {
               <div className="mb-4">
                 <h3 className="text-xl font-medium">VIP</h3>
                 <div className="mt-2">
-                  <span className="text-3xl font-bold">$19.99</span>
+                  <span className="text-3xl font-bold">$24.99</span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
-                <p className="text-sm text-muted-foreground mt-2">Premium features with personal stylist</p>
+                <p className="text-sm text-muted-foreground mt-2">Premium features plus personalized consultation</p>
               </div>
               
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Everything in Premium</span>
+                  <span className="text-sm">Color analysis quiz</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Personal stylist consultation</span>
+                  <span className="text-sm">Seasonal color palette</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Exclusive shopping discounts</span>
+                  <span className="text-sm">Basic clothing recommendations</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
-                  <span className="text-sm">Priority customer support</span>
+                  <span className="text-sm">Makeup recommendations</span>
+                </li>
+                                <li className="flex items-center">
+                  <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
+                  <span className="text-sm">Hair color suggestions</span>
+                </li>
+                                <li className="flex items-center">
+                  <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
+                  <span className="text-sm">Jewelry recommendations</span>
+                </li>
+                                <li className="flex items-center">
+                  <CheckCircle className="mr-2 h-4 w-4 text-chromatique-rose" />
+                  <span className="text-sm">Style consultation</span>
                 </li>
               </ul>
               <Link to="https://chromatique-i13s.onrender.com/">
@@ -545,12 +586,12 @@ const Index = () => {
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full bg-chromatique-winter"></div>
                   <div className="ml-4">
-                    <h4 className="font-medium">Sarah L.</h4>
-                    <p className="text-sm text-muted-foreground">Winter Palette</p>
+                    <h4 className="font-medium">Aysa Akhter</h4>
+                    <p className="text-sm text-muted-foreground">Soft Summer Palette</p>
                   </div>
                 </div>
                 <p className="text-chromatique-taupe">
-                  "I've always struggled with finding colors that work for me. Chromatique identified my winter palette, and shopping is so much easier now!"
+                  "I tried the chromatique website and it was so perfect! The outfit builder, the quiz to determine the color best suited to you, the recommendations and more! So many good things about this."
                 </p>
               </div>
             </div>
@@ -589,7 +630,7 @@ const Index = () => {
       </section>
       
       {/* CTA Section */}
-      <section className="py-20 bg-chromatique-deep text-white">
+      <section className="py-20 bg-chromatique-rose/70 text-white">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif mb-6">Ready to discover your perfect colors?</h2>
