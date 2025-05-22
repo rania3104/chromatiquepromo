@@ -99,7 +99,7 @@ const Team = () => {
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
                 <img 
-                  src="/rania.jpeg" 
+                  src="/rania.jpg" 
                   alt="Rania Aziz Farooqi" 
                   className="w-full h-full object-cover"
                 />
@@ -132,7 +132,7 @@ const Team = () => {
               {
           name: "Jadon Aguhob",
           role: "UX Designer & Content Contributor",
-          image: "/jadon.jpeg",
+          image: "/jadon.jpg",
           specialty: "Created the low-fidelity prototype and helped build a database of 100+ user-relevant items."
               },
             ].map((member, index) => (
