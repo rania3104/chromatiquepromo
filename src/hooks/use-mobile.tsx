@@ -8,7 +8,6 @@ export function useMobile() {
     // Initial check
     checkIfMobile();
     
-    // Add event listener for resize
     window.addEventListener('resize', checkIfMobile);
     
     // Cleanup
